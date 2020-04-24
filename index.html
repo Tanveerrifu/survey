@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="css/survey.css">
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+<p id="description"><em>Pick Your Best XI of Bangladesh Cricket Team</em></p>
+<form id="survey-form">
+<label for="name" id="name-label">
+  <p>Name</p>
+</label>
+<input type="text" id="name"  placeholder="Enter your name" required>
+<label for="email" id="email-label">
+  <p>Email</p>
+</label>
+<input type="email" id="email"  placeholder="Enter your email" required>
+<label for="Age" id="number-label">
+  <p>Age</p>
+</label>
+<input type="number" id="number" placeholder="Enter your age" min="12" max="40" required >
+<p>Chose Your Format</p>
+<select id="dropdown" name="">
+<option value="">ODI</option>
+<option value="">TEST</option>
+<option value="">t20</option>
+</select>
+<p>Chose your Captain</p>
+<input type="radio" name="captain" value="1" > Sakib Al Hasan </input> <br>
+<input type="radio" name="captain" value="2" > Mahmudullah Riad </input> <br>
+<input type="radio" name="captain" value="3" > Mushfiqur Rahim</input>
+<p>Chose your XI:</p>
+<input type="checkbox" name="Bangladesh-Team" value="1" > Tamim Iqbal </input><br>
+<input type="checkbox" name="Bangladesh-Team" value="2"> Soumya Sarker </input><br>
+<input type="checkbox" name="Bangladesh-Team" value="3"> Shakib AL Hasan </input><br>
+<input type="checkbox" name="Bangladesh-Team" value="4"> Mushfiqur Rahim(wk) </input><br>
+<input type="checkbox" name="Bangladesh-Team" value="5">Liton Das(wk) </input><br>
+<input type="checkbox" name="Bangladesh-Team" value="6"> Mohammad Mithun(wk) </input><br>
+<input type="checkbox" name="Bangladesh-Team" value="7"> Mahmudullah </input><br>
+<input type="checkbox" name="Bangladesh-Team" value="8"> Mosaddek Hossen </input><br>
+<input type="checkbox" name="Bangladesh-Team" value="9"> MH Miraz </input><br>
+<input type="checkbox" name="Bangladesh-Team" value="10"> Mohammad Saifuddin </input><br>
+<input type="checkbox" name="Bangladesh-Team" value="11">Robel hossain </input><br>
+<input type="checkbox" name="Bangladesh-Team" value="12">Alamin hossain </input><br>
+<input type="checkbox" name="Bangladesh-Team" value="13">Mustafizur Rahman </input><br>
+<input type="checkbox" name="Bangladesh-Team" value="14">Abu Jayed Rahi </input><br>
+<input type="checkbox" name="Bangladesh-Team" value="15"> Taijul Islam </input><br>
+<p>Enter your message here:</p>
+<textarea name="comment" id="comment" rows="4" cols="40"></textarea> <br>
+<input type="submit" id="submit" name="" value="Submit">
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
